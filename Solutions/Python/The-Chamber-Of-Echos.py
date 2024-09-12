@@ -8,6 +8,6 @@ def predict_next(echoes):
     next_value = echoes[-1] + difference
     # Store the full sequence including the predicted number in memories
     memories.extend(echoes + [next_value])
-    return next_value
+     
 
 print(predict_next(echoes))
